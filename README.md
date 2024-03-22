@@ -22,5 +22,5 @@ git status
 
 git add index.html
 git add . (for all files)
-
-
+git commit -m "all commands are added into Readme.md"
+git push origin main
