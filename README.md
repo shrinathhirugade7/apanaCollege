@@ -59,3 +59,30 @@ write ->
 git pull origin main
 
 //Resolving Merge Conflict
+git add .
+git commit -m ""
+git merge main (Conflict, we have resolve it)
+git checkout main -> git merge feature1
+// Conflict solved
+
+
+// UnDoing changes
+delete the line
+add it
+git reset index.html
+git reset (This is for all)
+
+// part second for commit
+delete the line
+add change
+commit change
+now we want to undo
+git reset HEAD~1 (undo the recent change)
+git log (to check all our commits)
+git reset b0704b39b7c4ed08c044bb02f44a4584bd65766f =>To go multiple steps piche to undo
+git reset --hard  b0704b39b7c4ed08c044bb02f44a4584bd65766f (This will give the previous change reflected in VS CODE)
+
+# Fork
+it means that copy repositories of others into our repository
+
+Course has been Finished
